@@ -6,7 +6,7 @@ const renderKalender =()=>{
   const lastDay = new Date(date.getFullYear(),date.getMonth()+1,0).getDate(); 
   
   const firstDayindex =date.getDay()+2; 
-  console.log(firstDayindex);
+  //console.log(firstDayindex);
   
   const prevLastDay = new Date(date.getFullYear(),date.getMonth(),0).getDate();
   
